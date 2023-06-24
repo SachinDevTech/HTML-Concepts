@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range and textarea</title>
+  </head>
+  <body>
+    <form action="/server">
+      <label for="range">Select Range: </label>
+      <input
+        type="range"
+        name="range"
+        id="range"
+        min="0"
+        max="50"
+        step="10"
+        value="50"
+      />
+      <button>Submit</button>
+
+      <br />
+      <hr />
+      <br />
+
+      <label for="text_area">Give your valuable feedback to us: </label>
+      <textarea name="feedback" id="text_area" cols="30" rows="5"></textarea>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

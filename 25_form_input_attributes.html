@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form input attributes</title>
+  </head>
+  <body>
+    <!-- -------------------------------------------------------------- -->
+    <!-- Modern Approach -->
+    <!-- <form >
+        <label > Enter Username:
+            <input type="text" placeholder="Username">
+        </label>
+        <br>
+        <label > Enter Password:
+            <input type="password" placeholder="Password">
+        </label>
+    </form> -->
+
+    <!-- ---------------------------------------------------------- -->
+
+    <form action="/action">
+      <div>
+        <label for="username">Enter Username:</label>
+        <input type="text" name="username" id="username" placeholder="Username Here" />
+      </div>
+      <div>
+        <label for="password">Enter password:</label>
+        <input type="password" name="password" id="password" placeholder="Password Here" />
+      </div>
+      <div>
+        <label for="age">Enter age:</label>
+        <input type="number" name="age" id="age" placeholder="Age Here"/>
+      </div>
+    </form>
+  </body>
+</html>
